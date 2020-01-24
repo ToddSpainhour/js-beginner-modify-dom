@@ -1,1 +1,1 @@
-# DOM minipulation practice from JS begginer's book
+# DOM minipulation practice from JS beginner's book
