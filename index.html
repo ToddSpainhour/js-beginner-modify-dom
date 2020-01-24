@@ -5,12 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DOM Practice</title>
-    <link rel="stylesheet" href="main.css">
+    <!--<link rel="stylesheet" href="main.css"> -->
+
+    <style>
+
+        .highlight {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 30px;
+        }
+        
+        .summer {
+            font-size: 64px;
+            color: #0099FF
+        }
+    </style>
 
 </head>
 <body>
-    <h1>This is DOM manipulation practice from my JavaScript for absolute beginner's book.</h1>
-    <script src="main.js"></script>
 
+        
+<h1 id="theTitle" class="highlight summer">What's happening? </h1>
+
+    <script>
+        //example one - change the onscreen text to something else
+
+        let title = document.querySelector ("#theTitle");
+        title.textContent = "Oppa Gangnam Style!";
+
+
+        //example two - displays the id we made for the title portion of our HTML
+
+        //let title = document.querySelector("h1");
+        //alert (title.getAttribute("id"));
+
+
+        //example three - change the class of an HTML element through JavaScript
+
+        //document.body.setAttribute("class", "bar foo");
+
+
+        //example four - change the class of an HTML element through JavaScript without setAttribute method
+        
+        //let title = document.querySelector("h1");
+        //alert (title.id);
+        //document.body.className = "bar foo"
+        
+        
+    </script>
+
+
+   <!-- <script src="main.js"></script> -->
 </body>
 </html>
