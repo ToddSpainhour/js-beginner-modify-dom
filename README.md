@@ -1,1 +1,1 @@
-# DOM minipulation practice from JS beginner's book
+# DOM manipulation practice from JS beginner's book
